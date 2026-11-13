@@ -1,8 +1,22 @@
-venv
-*/__pycache__.py
-*/*/__pycache__.py
-__pycache__.py
-mazegenerator-2.1.0-py3-none-any.whl__pycache__/
+# virtual envs
+venv/
+.venv/
+
+# python caches
+__pycache__/
 *.pyc
-.idea
-.vscod*
+.mypy_cache/
+
+# editors
+.idea/
+.vscode/
+
+# build output
+build/
+dist/
+pacman.zip
+*.spec
+
+# generated at runtime
+data/
+default_config.json

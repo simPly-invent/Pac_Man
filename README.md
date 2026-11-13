@@ -1,13 +1,16 @@
-*this project has been created as part of the 42 curriculum by pamuller, mobenais.*
+*This project has been created as part of the 42 curriculum by pamuller and mobenais.*
 
 # Pac Man
 
 ## Description
 
-Recreate the famous arcade game Pac-Man with a modern Python codebase, 
-a clean project structure, and a deployable build.
-to be enought accurate to the subject we use all py game function that appear in wrapper 
-python of mlx 42
+A recreation of the arcade game Pac-Man in Python with pygame: random
+mazes generated for every level, four ghosts with their own behaviours,
+a configurable game (lives, points, level timer) and a high-score board.
+To stay close to the subject, only the pygame functions that exist in the
+42 MiniLibX Python wrapper are used.
+
+![Pac-Man gameplay](docs/demo.gif)
 
 Contributions:
 | contributor| Implemented| Fix |
@@ -70,7 +73,7 @@ eg of a configuration file:
 ```
 Here, all of those keys are set to their default values.
 You can modify it if you like, or remove some.
-If weird things happends, like "lives": -1, the system fallsback and sets the lives back to their default values.
+If something odd happens, like "lives": -1, the system falls back and sets the lives back to their default values.
 
 `"pacgum"` is a top-level key only: it sets the number of pacgums of every
 level of the run. Put inside a level it is ignored, with a warning.
